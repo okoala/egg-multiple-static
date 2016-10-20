@@ -46,7 +46,10 @@
     "cov": "egg-bin cov",
     "lint": "eslint --ext js . --fix",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "release": "release-it patch",
+    "release:minor": "release-it minor",
+    "release:major": "release-it major"
   },
   "ci": {
     "version": "4, 6"
